@@ -16,7 +16,7 @@ const Navbar = () => {
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
-            setActive("");
+            setActive(""); //current page
             window.scrollTo(0, 0);
           }}
         >
@@ -26,8 +26,8 @@ const Navbar = () => {
             className="w-9 h-9 object-contain rounded-[30px]"
           />
           <p className=" text-[#915eff] text-[18px] font-bold cursor-pointer flex">
-            Portfolio &nbsp;
-            <span className="sm:block hidden"> |</span>
+            Sahil &nbsp;
+            <span className="sm:block hidden"> Gupta</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
