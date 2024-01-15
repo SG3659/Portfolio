@@ -25,10 +25,10 @@ const Navbar = () => {
             alt=" logo"
             className="w-9 h-9 object-contain rounded-[30px]"
           />
-          <p className=" text-[#915eff] text-[18px] font-bold cursor-pointer flex">
+          {/*<p className=" text-[#915eff] text-[18px] font-bold cursor-pointer flex">
             Sahil &nbsp;
             <span className="sm:block hidden"> Gupta</span>
-          </p>
+        </p>*/}
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((Link) => (
