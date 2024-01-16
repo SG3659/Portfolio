@@ -4,6 +4,8 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { logo } from "../assets";
+import "./about.css";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -34,8 +36,12 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <div>
+          <h2 className={styles.sectionHeadText}>About Me.</h2>
+        </div>
+        <div className="profile_image">
+          <img src={logo} alt=" Profile Image" />
+        </div>
       </motion.div>
 
       <motion.p

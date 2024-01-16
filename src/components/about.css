@@ -1,0 +1,22 @@
+.profile_image{
+   width:18rem;
+   overflow:hidden;
+   margin-bottom: 1.5rem;
+   display: flex;
+   justify-items: center;
+   align-items: center;
+}
+.profile_image img{
+   box-shadow:1px 1px 1px 1px #FFF2D8;
+   animation: animate 5s ease-in-out infinite;
+   transition: all 1s ease-in-out;
+   
+}
+@keyframes animate {
+   0%, 100%{
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+   }
+   50%{
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+   }
+}
