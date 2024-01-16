@@ -44,7 +44,8 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* menu for smartphone*/}
+        {/* menu for smartphone
+          toggle ui appreance */}
 
         <div className=" sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -59,6 +60,7 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] 
             z-10 rounded-xl `}
           >
+            {/* menu ui appereance*/}
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((Link) => (
                 <li
