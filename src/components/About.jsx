@@ -4,9 +4,10 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { logo } from "../assets";
+import { logo, resume } from "../assets";
 import "./about.css";
 import data from "./aboutdata";
+import { HiDownload } from "react-icons/hi";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -70,10 +71,13 @@ const About = () => {
             </p>
             <br />
             <p>
-              In my spare time, I enjoy playing cricket , pc games(Valorant,
-              COD-MW) , and
+              Motivated and hardworking individual with a passion for software
               <br />
-              spending time with my friends.
+              development seeks hands-on experience with a team of
+              <br />
+              professionals. Strong understanding of software development
+              <br />
+              concepts and eagerness to learn new technologies.
             </p>
             <br />
             <p>
@@ -83,14 +87,24 @@ const About = () => {
           </div>
         </div>
       </motion.div>
+      <br />
+      <br />
 
-      {/*<motion.p
+      <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-primary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hi, I'm Sahil Gupta, a
+        <a
+          href={resume}
+          download
+          className="btn primary"
+          target="black"
+          rel="noopener noreferrer"
+        >
+          Download cv <HiDownload />
+        </a>
       </motion.p>
-      service card 
+      {/*service card 
       <div className="mt-4 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

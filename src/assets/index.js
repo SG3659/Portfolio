@@ -10,6 +10,7 @@ import harit from "./harit.png";
 import ayush from "./ayush.jpg";
 import shobhit from "./shobhit.jpg";
 import akshat from "./akshat.png";
+import resume from "./Sahil Gupta-Resume.pdf";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -61,4 +62,5 @@ export {
   malhaar,
   learning,
   hot,
+  resume,
 };

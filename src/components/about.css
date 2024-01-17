@@ -88,3 +88,19 @@ header{
       display: none;
    }
 }
+.btn {
+   display: inline-block;
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   background: var(--color-light);
+   color: var(--color-black);
+   padding: 0.6rem 2.5rem;
+   border: 2px solid transparent;
+   border-radius: var(--border-radius-2);
+   cursor: pointer;
+}
+.btn.primary {
+   background: var(--color-primary);
+}
