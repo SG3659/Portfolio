@@ -78,11 +78,11 @@ header{
    place-items: center;
    border-radius: var(--border-radius-3);
 }
-.header_socials a:hover{
+/*.header_socials a:hover{
    background-color: var(--color-primary);
    color: var(--color-white);
    transform: translateX(-01.5rem);
-}
+}*/
 @media screen and (max-width: 950px) {
    .header_socials{
       display: none;
