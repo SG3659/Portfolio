@@ -94,7 +94,7 @@ header{
    display: flex;
    align-items: center;
    gap: 1rem;
-   background: var(--color-light);
+   background: #915eff;
    color: var(--color-black);
    padding: 0.6rem 2.5rem;
    border: 2px solid transparent;
