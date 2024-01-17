@@ -6,6 +6,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { logo } from "../assets";
 import "./about.css";
+import data from "./aboutdata";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -39,26 +40,62 @@ const About = () => {
         <div>
           <h2 className={styles.sectionHeadText}>About Me.</h2>
         </div>
-        <div className="profile_image">
-          <img src={logo} alt=" Profile Image" />
+        <div className="container header__container">
+          <div className="profile_image">
+            <img src={logo} alt=" Profile Image" />
+          </div>
+          <div className="header_socials">
+            {data.map((item) => (
+              <a
+                key={item.id}
+                href={item.link}
+                target="black"
+                rel="noopener noreferrer"
+              >
+                {item.icon}
+              </a>
+            ))}
+          </div>
+          <div>
+            <p>
+              <span className="text-[#915eff]">
+                <b>Hi, I'm Sahil Gupta,</b>
+              </span>{" "}
+              Currently pursuing Bachelor in Technology
+              <br />
+              From Bhagwan Parshuram Institute of Technology which Affilated
+              from GGSIPU.
+              <br />
+              In Specialisation Electrical & Electronics Engineering.
+            </p>
+            <br />
+            <p>
+              In my spare time, I enjoy playing cricket , pc games(Valorant,
+              COD-MW) , and
+              <br />
+              spending time with my friends.
+            </p>
+            <br />
+            <p>
+              Thank you for taking the time to visit my website, and <br />I
+              look forward to connecting with you.
+            </p>
+          </div>
         </div>
       </motion.div>
 
-      <motion.p
+      {/*<motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-primary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm doing my bachelor in technology in specialisation electrical and
-        electronics engineering. I'm eager to learn new things and increase my
-        skill set. Throughout my career, I have taken on a variety of roles,
-        including:
+        Hi, I'm Sahil Gupta, a
       </motion.p>
-      {/*service card */}
+      service card 
       <div className="mt-4 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+        </div>*/}
     </>
   );
 };
