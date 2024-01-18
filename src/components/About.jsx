@@ -9,15 +9,18 @@ import "./about.css";
 import data from "./aboutdata";
 import { HiDownload } from "react-icons/hi";
 
-const ServiceCard = ({ index, title, icon }) => {
+{
+  /*const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
+    // cards outer container
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
+      // card tilt property & ca
         <div
-          options={{
+          options={{// property of tilt the card property
             max: 45,
             scale: 1,
             speed: 450,
@@ -32,7 +35,8 @@ const ServiceCard = ({ index, title, icon }) => {
       </motion.div>
     </Tilt>
   );
-};
+};*/
+}
 
 const About = () => {
   return (
@@ -90,10 +94,7 @@ const About = () => {
       <br />
       <br />
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-primary text-[17px] max-w-3xl leading-[30px]"
-      >
+      <motion.p variants={fadeIn("", "", 0.1, 1)}>
         <a
           href={resume}
           download
