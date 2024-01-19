@@ -29,6 +29,7 @@ import malhaar from "./company/malhaar.png";
 import hot from "./hotstar.png";
 import portfolio from "./Portfolio.png";
 import vercel from "./vercel.png";
+import gif from "./randomgif.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   resume,
   portfolio,
   vercel,
+  gif,
 };

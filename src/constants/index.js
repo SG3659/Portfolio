@@ -24,6 +24,7 @@ import {
   learning,
   hot,
   portfolio,
+  gif,
 } from "../assets";
 
 export const navLinks = [
@@ -71,12 +72,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "tailwind",
+    icon: tailwind,
   },
   {
-    name: "threejs",
-    icon: threejs,
+    name: "git",
+    icon: git,
   },
 ];
 
@@ -105,28 +106,6 @@ const experiences = [
 
 const projects = [
   {
-    name: "Hotstar Clone",
-    description:
-      "It's a hotstar clone landing page with the help of html, css, js ",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: hot,
-    source_code_link: "https://github.com/",
-    link: "",
-  },
-  {
     name: "Portfolio",
     description:
       "It's a 3-D Dynamic Responsive Portfolio with the help of Reactjs, CSS, Tailwind, JS, ",
@@ -147,6 +126,23 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/SG3659/Portfolio",
     link: "https://portfolio-five-nu-22.vercel.app/",
+  },
+  {
+    name: "Random-GIF",
+    description: "It's a API fetch website from GIPHY.com",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gif,
+    source_code_link: "https://github.com/SG3659/Random-Gif-",
+    link: "https://random-gif-khaki.vercel.app/",
   },
 ];
 
