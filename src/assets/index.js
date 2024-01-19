@@ -6,10 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import harit from "./harit.png";
-import ayush from "./ayush.jpg";
-import shobhit from "./shobhit.jpg";
-import akshat from "./akshat.png";
 import resume from "./Sahil Gupta-Resume.pdf";
 
 import css from "./tech/css.png";
@@ -31,6 +27,8 @@ import learning from "./company/greatlearning.png";
 import malhaar from "./company/malhaar.png";
 
 import hot from "./hotstar.png";
+import portfolio from "./Portfolio.png";
+import vercel from "./vercel.png";
 
 export {
   logo,
@@ -55,12 +53,10 @@ export {
   typescript,
   threejs,
   java,
-  harit,
-  ayush,
-  shobhit,
-  akshat,
   malhaar,
   learning,
   hot,
   resume,
+  portfolio,
+  vercel,
 };

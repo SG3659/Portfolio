@@ -20,13 +20,10 @@ import {
   docker,
   threejs,
   java,
-  akshat,
-  harit,
-  shobhit,
-  ayush,
   malhaar,
   learning,
   hot,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -117,32 +114,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was a website as beautiful, but Sahil proved & made this.",
-    name: "Ayush Gandhi",
-    designation: "SDE-INTERN",
-    company: "Mediology Software",
-    image: ayush,
-  },
-  {
-    testimonial: "He is a fast learner. Always ready to take up new tasks.",
-    name: "Harit Dheer",
-    designation: "SDE-INTERN",
-    company: "ModegenicPvt.Ltd",
-    image: harit,
-  },
-  {
-    testimonial:
-      "Hard working, good at figuring out solution to complex problems.",
-    name: "Shobhit Gupta",
-    designation: "Engineer",
-    company: "ECE-Department",
-    image: shobhit,
-  },
-];
-
 const projects = [
   {
     name: "Hotstar Clone",
@@ -164,7 +135,30 @@ const projects = [
     ],
     image: hot,
     source_code_link: "https://github.com/",
+    link: "",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "It's a 3-D Dynamic Responsive Portfolio with the help of Reactjs, CSS, Tailwind, JS, ",
+    tags: [
+      {
+        name: "React-ThreeJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Framer-Motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tilt",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/SG3659/Portfolio",
+    link: "https://portfolio-five-nu-22.vercel.app/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
