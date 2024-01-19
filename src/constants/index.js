@@ -41,21 +41,6 @@ export const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Java",
-    icon: web,
-  },
-  {
-    title: "Frontend Developer",
-    icon: backend,
-  },
-  {
-    title: "Event Organiser in college(Sponser team)",
-    icon: creator,
-  },
-];
-
 const technologies = [
   {
     name: "HTML 5",
@@ -161,4 +146,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { technologies, experiences, projects };
