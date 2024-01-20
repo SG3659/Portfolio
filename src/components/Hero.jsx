@@ -9,15 +9,15 @@ const Hero = () => {
           <img src={logo} alt=" Profile Image" />
         </div>
         <div className="flex items-center justify-center flex-col font-light">
-          <p className="hover:font-bold text-[#915eff] cursor-pointer">
-            <span>Hii, I'm Sahil Gupta(B.Tech(3rd))</span>
+          <p className="font-bold hover:text-[#915eff] cursor-pointer">
+            <span className="text-2xl">Hey There!</span>
           </p>
-          <p>
-            "I'm not just a coder, I'm a web enthusiast with a passion for
-            creating beautiful and <br />
+          <p className="font-bold hover:text-[#915eff] cursor-pointer">
+            I'm Sahil Gupta, 3rd year BTech Student from BPIT(GGSIPU)
+            <br />
           </p>
           <p className="flex items-center justify-center flex-col">
-            meaningful digital experiences."
+            "A guy immeresed in the exciting world of technology."
           </p>
         </div>
       </div>
