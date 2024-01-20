@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { logo, resume } from "../assets";
+import { resume } from "../assets";
 import "./about.css";
 import data from "./aboutdata";
 import { HiDownload } from "react-icons/hi";
@@ -14,11 +14,8 @@ const About = () => {
         <div>
           <h2 className={styles.sectionHeadText}>About Me.</h2>
         </div>
-        <div className="container header__container">
-          <div className="profile_image">
-            <img src={logo} alt=" Profile Image" />
-          </div>
-          <div className="header_socials">
+        <div className="container header__container mt-[60px]">
+          <div className="header_socials ">
             {data.map((item) => (
               <a
                 key={item.id}

@@ -1,24 +1,23 @@
-import { styles } from "../styles";
+import { logo } from "../assets";
+import "./about.css";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
-      <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 `}
-      >
-        <div className=" flex flex-col justify-center items-center mt-5 ">
-          {/*this div for dot  line*/}
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className=" w-1 sm:h-80 h-40 violet-gradient " />
+    <section className="w-full h-screen mx-auto  black-gradient flex  items-center justify-center ">
+      <div className="flex flex-col items-center justify-center">
+        <div className="profile_image hover:w-[18.5rem] cursor-pointer z-10 ">
+          <img src={logo} alt=" Profile Image" />
         </div>
-
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Sahil<span className="text-[#915eff]"> Gupta</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Engineer Student.
-            <br className="sm:block hidden" />
+        <div className="flex items-center justify-center flex-col font-light">
+          <p className="hover:font-bold text-[#915eff] cursor-pointer">
+            <span>Hii, I'm Sahil Gupta(B.Tech(3rd))</span>
+          </p>
+          <p>
+            "I'm not just a coder, I'm a web enthusiast with a passion for
+            creating beautiful and <br />
+          </p>
+          <p className="flex items-center justify-center flex-col">
+            meaningful digital experiences."
           </p>
         </div>
       </div>
