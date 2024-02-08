@@ -4,11 +4,11 @@ import "./about.css";
 const Hero = () => {
   return (
     <section className="w-full h-screen mx-auto  black-gradient flex  items-center justify-center ">
-      <div className="flex flex-col items-center justify-center">
+      <div className="p-4 flex flex-col items-center justify-center">
         <div className="profile_image hover:w-[18.5rem] cursor-pointer z-10 ">
           <img src={logo} alt=" Profile Image" />
         </div>
-        <div className="flex items-center justify-center flex-col font-light">
+        <div className=" p-10 flex items-center justify-center flex-col font-light">
           <p className="font-bold hover:text-[#915eff] cursor-pointer">
             <span className="text-2xl">Hey There!</span>
           </p>
@@ -16,9 +16,7 @@ const Hero = () => {
             I'm Sahil Gupta, 3rd year BTech Student from BPIT(GGSIPU)
             <br />
           </p>
-          <p className="flex items-center justify-center flex-col">
-            "A guy immeresed in the exciting world of technology."
-          </p>
+          <p>"A guy immeresed in the exciting world of technology."</p>
         </div>
       </div>
     </section>
