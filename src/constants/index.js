@@ -80,6 +80,18 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "redux",
+    icon: redux,
+  },
+  {
+    name: "mongodb",
+    icon: mongodb,
+  },
+  {
+    name: "threejs",
+    icon: threejs,
+  },
 ];
 
 const experiences = [
