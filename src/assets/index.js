@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import resume from "./SahilGupta__Resume.pdf";
+import resume from "./Sahil_s_Resume.pdf";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,6 +30,7 @@ import hot from "./hotstar.png";
 import portfolio from "./Portfolio.png";
 import vercel from "./vercel.png";
 import gif from "./randomgif.png";
+import hospital from "./hospital.png";
 
 export {
   logo,
@@ -61,4 +62,5 @@ export {
   portfolio,
   vercel,
   gif,
+  hospital,
 };

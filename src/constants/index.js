@@ -25,6 +25,7 @@ import {
   hot,
   portfolio,
   gif,
+  hospital,
 } from "../assets";
 
 export const navLinks = [
@@ -143,6 +144,31 @@ const projects = [
     image: gif,
     source_code_link: "https://github.com/SG3659/Random-Gif-",
     link: "https://random-gif-khaki.vercel.app/",
+  },
+  {
+    name: "BOOK-APPOINTMENT",
+    description: "It's a MERN Stack Appointment Book application",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ExpressJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React-Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: hospital,
+    source_code_link: "https://github.com/SG3659/J-S-Hospital",
+    link: "https://j-s-hospital.onrender.com",
   },
 ];
 
