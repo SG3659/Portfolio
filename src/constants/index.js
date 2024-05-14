@@ -26,6 +26,7 @@ import {
   portfolio,
   gif,
   hospital,
+  linux,
 } from "../assets";
 
 export const navLinks = [
@@ -91,6 +92,10 @@ const technologies = [
   {
     name: "threejs",
     icon: threejs,
+  },
+  {
+    name: "linux",
+    icon: linux,
   },
 ];
 

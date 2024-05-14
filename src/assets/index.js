@@ -22,6 +22,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import java from "./tech/java.png";
+import linux from "./tech/linux.png";
 
 import learning from "./company/greatlearning.png";
 import malhaar from "./company/malhaar.png";
@@ -63,4 +64,5 @@ export {
   vercel,
   gif,
   hospital,
+  linux,
 };
