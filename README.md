@@ -20,7 +20,8 @@ Developed a full-fledged portfolio using React.Js, Tailwind, Three Fiber, Three.
     -> 3D Graphics: Three.Js, React Three Fiber.
     -> Animation: Framer Motion.
     -> Other Tools: VS code Editor, Git for version control, Vercel.
-    
+## 5.Acknowledge to: 
+    -> JavaScript Mastery    
     
 
     
