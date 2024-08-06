@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { slideIn } from "../utils/motion";
 import { styles } from "../styles";
@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const formRef = useRef();
+
 
   const [form, setForm] = useState({
     name: "",
@@ -66,7 +66,6 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
-          ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
