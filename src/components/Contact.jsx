@@ -7,8 +7,6 @@ import { EarthCanvas } from "./canvas";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-
-
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -27,8 +25,8 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_jv0006j",
-        "template_b0jhbo3",
+        "service_jhdx2r5",
+        "template_u7sd7pi",
         {
           from_name: form.name,
           to_name: "Sahil",
@@ -36,7 +34,7 @@ const Contact = () => {
           to_email: "kvxgupta43384@gmail.com",
           message: form.message,
         },
-        "vyh0APJp6Wrr9hGet"
+        "YKwOD4Us1gIFk_iiF"
       )
       .then(
         () => {
@@ -65,10 +63,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in Touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <form
-          onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
-        >
+        <form onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
