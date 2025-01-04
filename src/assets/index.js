@@ -6,7 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import resume from "./Sahil_s_Resume.pdf";
+import resume from "./sahil_gupta_Resume.pdf";
+import Ranking from "./Ranking.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -26,13 +27,13 @@ import linux from "./tech/linux.png";
 
 import learning from "./company/greatlearning.png";
 import malhaar from "./company/malhaar.png";
+import apnaCollege from "./company/apnaCollege.jpeg";
 
 import hot from "./hotstar.png";
 import portfolio from "./Portfolio.png";
 import vercel from "./vercel.png";
 import gif from "./randomgif.png";
 import hospital from "./hospital.png";
-
 export {
   logo,
   backend,
@@ -65,4 +66,6 @@ export {
   gif,
   hospital,
   linux,
+  apnaCollege,
+  Ranking,
 };

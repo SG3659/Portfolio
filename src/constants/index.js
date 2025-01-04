@@ -27,6 +27,8 @@ import {
   gif,
   hospital,
   linux,
+  apnaCollege,
+  Ranking,
 } from "../assets";
 
 export const navLinks = [
@@ -97,6 +99,10 @@ const technologies = [
     name: "linux",
     icon: linux,
   },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
 ];
 
 const experiences = [
@@ -118,6 +124,17 @@ const experiences = [
       "It's my one month summer training program. ",
       "Here I learn about front-end developer. ",
       "And make many projects ",
+    ],
+  },
+  {
+    title: "FullStack Developer Intern",
+    company_name: "Apna College",
+    icon: apnaCollege,
+    iconBg: "#383E56",
+    date: "Aug 2024-Sep 2024",
+    points: [
+      "Developed RESTful APIs to display user profiles and built APIs for updating user information. ",
+      "Technology and Tool Used - TypeScript, Node.js, Express.js, Postman ",
     ],
   },
 ];
@@ -186,6 +203,31 @@ const projects = [
     image: hospital,
     source_code_link: "https://github.com/SG3659/J-S-Hospital",
     link: "https://j-s-hospital.onrender.com",
+  },
+  {
+    name: "Ranking",
+    description: "It's a MERN Stack Appointment Book application",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ExpressJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React-Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Ranking,
+    source_code_link: "https://github.com/Rohit-Sharmaa/Rankings",
+    link: "https://rankingss.vercel.app/",
   },
 ];
 

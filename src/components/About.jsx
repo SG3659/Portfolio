@@ -48,6 +48,17 @@ const About = () => {
               professionals. Strong understanding of software development
               <br />
               concepts and eagerness to learn new technologies.
+              <br />
+              <br />
+              I am a proficient engineer with expertise in web development
+              technologies,
+              <br />
+              including HTML, CSS, JavaScript, TypeScript, Node.js, React.js,
+              Framer Motion,
+              <br />
+              Redux, Three.js, Express.js, Tailwind CSS, Socket.io, MongoDB,
+              PostgreSQL, Restfull API. Additionally,
+              <br />I am skilled in Java programming.
             </p>
             <br />
             <p>
