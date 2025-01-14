@@ -27,7 +27,6 @@ import linux from "./tech/linux.png";
 
 import learning from "./company/greatlearning.png";
 import malhaar from "./company/malhaar.png";
-import apnaCollege from "./company/apnaCollege.png";
 
 import hot from "./hotstar.png";
 import portfolio from "./Portfolio.png";
@@ -66,6 +65,5 @@ export {
   gif,
   hospital,
   linux,
-  apnaCollege,
   Ranking,
 };

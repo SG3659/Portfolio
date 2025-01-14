@@ -27,7 +27,6 @@ import {
   gif,
   hospital,
   linux,
-  apnaCollege,
   Ranking,
 } from "../assets";
 
@@ -129,7 +128,6 @@ const experiences = [
   {
     title: "FullStack Developer Intern",
     company_name: "Apna College",
-    icon: apnaCollege,
     iconBg: "#383E56",
     date: "Aug 2024-Sep 2024",
     points: [
