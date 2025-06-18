@@ -32,7 +32,7 @@ const About = () => {
               <span className="text-[#915eff]">
                 <b>Hi, I'm Sahil Gupta,</b>
               </span>{" "}
-              Currently pursuing Bachelor in Technology
+              Completed My Bachelor in Technology
               <br />
               From Bhagwan Parshuram Institute of Technology which Affilated
               from GGSIPU.
