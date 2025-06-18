@@ -13,7 +13,7 @@ const Hero = () => {
             <span className="text-2xl">Hey There!</span>
           </p>
           <p className="font-bold hover:text-[#915eff] cursor-pointer">
-            I'm Sahil Gupta, 3rd year BTech Student from BPIT(GGSIPU)
+            I'm Sahil Gupta, Software Developer 
             <br />
           </p>
           <p>"A guy immeresed in the exciting world of technology."</p>
