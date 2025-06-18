@@ -135,6 +135,17 @@ const experiences = [
       "Technology and Tool Used - TypeScript, Node.js, Express.js, Postman ",
     ],
   },
+   {
+    title: "Software Developer Intern",
+    company_name: "Product Space",
+    iconBg: "#383E56",
+    date: "Jan 2025-May 2025",
+    points: [
+      "Developed an RBAC dashboard for content team managers with features like Events, Blogs, and Jobs.",
+      "Built a recommended content functionality to enhance search efficiency and user experience.",
+      "Technologies and tools used: React.js, Next.js, Node.js, Express.js, Recoil, Postman, MySQL, Convex, Langchain",
+    ],
+  },
 ];
 
 const projects = [
